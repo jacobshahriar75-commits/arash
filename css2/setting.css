@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: Yekan;
+    src: url(../font/Yekan/BYekan+\ Bold.ttf);
+}
+html,body{
+    font-family: Yekan;
+    src: url(../font/Yekan/BYekan+\ Bold.ttf);
+}
+html,body{
+    font-family: Yekan;
+    direction: rtl;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-prev:after{
+    font-size: 15px;
+    font-weight: bold;
+    color: #2b2b2b;
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-next:after{
+    font-size: 15px;
+    font-weight: bold;
+    color: #2b2b2b;
+    border: 1px solid lightgray;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-button-disabled{
+    opacity: 0 !important;
+}
+html ,body{
+    scroll-behavior: smooth;
+}

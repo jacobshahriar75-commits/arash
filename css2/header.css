@@ -1,0 +1,125 @@
+
+.header{
+    width: 100%;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+    background-color: white;
+    .header-item{
+        width: 100%;
+        height: 100%;
+    
+        display: flex;
+        
+        .header-item-center{
+            width: 15%;
+            height: 100%;
+    
+            display: flex;
+            justify-content: center;
+                align-items: center;
+            img{
+                width: 160px;
+                height: 160px;
+            }
+        }
+        .header-item-product{
+            width: 880px;
+            height: 100%;
+        
+            display: flex;
+            align-items: center;
+            input{
+                background-color: lightgray;
+                width: 880px;
+                height: 40px;
+                border: none;
+                border-radius: 8px;
+                outline: none;
+                padding-right: 30px;
+                font-size: 12px;
+                font-weight: bold;
+            }
+        }
+        .header-register{
+            width: 11%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .header-register-item{
+                width: 130px;
+                height: 50%;
+                padding: 3px 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid lightslategray;
+                border-radius: 8px;
+                text-decoration: none;
+                column-gap: 8px;
+            }
+        }
+        .span{
+            width: 10px;
+            height: 100%;
+        
+            display: flex;
+            align-items: center;
+            font-size: 30px;
+            color: lightslategray;
+            position: relative;
+            left: 2px;
+        }
+        .header-basket{
+            width: 50px;
+            height: 100%;
+        
+            display: flex;
+            align-items: center;
+            justify-content: center;
+               img{
+                width: 24px;
+                height: 24px;
+
+               }
+            
+        }
+        .return{
+            width: 300px;
+            height: 100%;
+        
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            .return-item{
+              width: 170px;
+              height: 70%;
+              background-color: rgb(240, 212, 216);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border: none;
+              border-radius: 10px;
+              position: relative;
+              right: 10px;
+              
+              
+              a{
+                font-size: 15px;
+                font-weight: bold;
+                color: deeppink;
+                text-decoration: none;
+                img{
+                    width: 20px;
+                    height: 20px;
+                }
+              }
+            }
+        }
+
+    }
+}
+ 
